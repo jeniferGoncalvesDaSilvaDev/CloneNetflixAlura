@@ -1,3 +1,59 @@
 body{
     background-color: black;
 }
+body{
+   /* banner 1 */
+
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+
+    background: url(/assets/banner\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.filme{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filme-poster>img{
+    position: absolute;
+    top:210px;
+    right:670px;
+    left:80px;
+    /*border:1px solid red;*/
+}
+.sinopse >p{
+    color:#ffff;
+    /*border:1px solid white;*/
+    margin-top:490px;
+    margin-right:395px;
+    margin-left:50px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 45px;
+    letter-spacing: 0em;
+
+
+
+}
+
+.buttons button{
+    font-size:25px;
+    font-weight: 200;
+    margin:10px;
+    padding:20px;
+    width: 300px;
+    position: relative;
+    left:40px;
+
+}
+.assistir{
+    background-color: #ffff;
+}
+.infos{
+    background-color: rgb(184, 182, 182);
+    opacity: 2;
+}
